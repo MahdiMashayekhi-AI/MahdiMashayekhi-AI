@@ -28,7 +28,7 @@ I love programming with Python and I'm always looking for interesting challenges
 - Natural language processing
 - Machine Learning (ML)
 - Deep Learning (DL)
-- Creating an َََAi algorithm
+- Creating an Ai algorithm
 - Personal website development
 
 ## 🌱 I'm currently learning
