@@ -35,7 +35,7 @@ I love programming with Python and I'm always looking for interesting challenges
 
 - Artificial Neural Networks🧠
 - Web Scraping
-- Jango  
+- Django
 
 ## 💼 Skills
 
