@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-Hi there, I'm <a href="http://mahdimashayekhi.gigfa.com" target="_blank" rel="noreferrer">Mahdi Mashayekhi</a> 👋
+Hi there, I'm <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer">Mahdi Mashayekhi</a> 👋
 </h3>
 
 <h2 align="center">
@@ -14,7 +14,7 @@ I love programming with Python and I'm always looking for interesting challenges
 
 ### 🤝 Connect with me:
 
-<a href="http://mahdimashayekhi.gigfa.com"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439604-2fc2cf1f-9b32-4793-8fbc-68ca7d7aef01.png" alt="Site Mahdi Mashayekhi" width="21px"/></a>
+<a href="https://mahdimashayekhi.ir"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439604-2fc2cf1f-9b32-4793-8fbc-68ca7d7aef01.png" alt="Site Mahdi Mashayekhi" width="21px"/></a>
 <a href="https://twitter.com/Mashayekhi_AI"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439278-ef523083-6d42-4ca3-84de-1608dcd39d2c.png" alt="twitter Mahdi Mashayekhi" width="21px"/></a>
 <a href="https://www.linkedin.com/in/mahdimashayekhi/"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439314-6c244884-b22d-4e2a-b83b-94377b88a301.png" alt="Linkedin Mahdi Mashayekhi" width="21px"/></a>
 <a href="https://www.youtube.com/@MahdiMashayekhi"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439340-d4512d7e-aa6b-4dbd-80eb-9b2083583573.png" alt="YouTubr Mahdi Mashayekhi" width="21px"/></a>
