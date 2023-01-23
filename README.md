@@ -19,7 +19,7 @@ I love programming with Python and I'm always looking for interesting challenges
 <a href="https://www.linkedin.com/in/mahdimashayekhi/"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439314-6c244884-b22d-4e2a-b83b-94377b88a301.png" alt="Linkedin Mahdi Mashayekhi" width="21px"/></a>
 <a href="https://www.youtube.com/@MahdiMashayekhi"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439340-d4512d7e-aa6b-4dbd-80eb-9b2083583573.png" alt="YouTubr Mahdi Mashayekhi" width="21px"/></a>
 <a href="https://medium.com/@MahdiMashayekhi"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439524-fbd3f80c-ad61-4c20-8f53-b7797a023f4b.png" alt="Medium Mahdi Mashayekhi" width="21px"/></a>
-<a href="https://www.instagram.com/mashayekhi.ai/"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439420-4acda2ac-ba3d-437e-b373-04e0e78929d7.png" alt="Instagram Mahdi Mashayekhi" width="21px"/></a>
+<a href="https://www.instagram.com/mahdimashayekhi.ai/"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439420-4acda2ac-ba3d-437e-b373-04e0e78929d7.png" alt="Instagram Mahdi Mashayekhi" width="21px"/></a>
 </br>
 - 💬 If you have any question/feedback, please do not hesitate to reach out to me!
 
