@@ -2,9 +2,9 @@
   <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/108976550/205439817-4627fe82-bc98-4ef6-b0f6-a0de3022ca23.jpg" alt="Mahdi Mashayekhi"></a>
 </p>
 
-<h3 align="center">
+<h1 align="center">
 Hi there, I'm <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer">Mahdi Mashayekhi</a> 👋
-</h3>
+</h1>
 
 <h2 align="center">
 I'm a Python programmer 💻, Artificial intelligence 🧠, and Designer 🎨!
