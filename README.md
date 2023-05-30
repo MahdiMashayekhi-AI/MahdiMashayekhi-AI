@@ -61,6 +61,12 @@ I love programming with Python and I'm always looking for interesting challenges
 
 </br>
 
+## 💳 Donate and Support
+
+- You can support me or donate through the link below:</br></br>
+<a href="https://mahdimashayekhi.ir/donate"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439604-2fc2cf1f-9b32-4793-8fbc-68ca7d7aef01.png" alt="Mahdi Mashayekhi Donate" width="21px"/></a>
+<a href="https://mahdimashayekhi.ir/donate">mahdimashayekhi.ir/donate</a>
+
 ## 📈 GitHub Stats 
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=MahdiMashayekhi-Ai)](https://github.com/MahdiMashayekhi-Ai)
