@@ -2,6 +2,11 @@
   <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/108976550/205439817-4627fe82-bc98-4ef6-b0f6-a0de3022ca23.jpg" alt="Mahdi Mashayekhi"></a>
 </p>
 
+
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=mahdimashayekhi-ai&label=Profile%20Views&color=1&icon=4&pretty=false" />
+</a>
+
 <h1 align="center">
 Hi there, I'm <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer">Mahdi Mashayekhi</a> 👋
 </h1>
