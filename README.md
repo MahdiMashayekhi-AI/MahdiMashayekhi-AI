@@ -1,28 +1,27 @@
-<p align="center">
+![image](https://github.com/user-attachments/assets/3e28892f-4e7e-489b-b390-4973106ca9d9)<p align="center">
   <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/108976550/205439817-4627fe82-bc98-4ef6-b0f6-a0de3022ca23.jpg" alt="Mahdi Mashayekhi"></a>
 </p>
 
 # Mahdi Mashayekhi
-Machine Learning Engineer | Data Enthusiast | Problem Solver
+Python & Java Enthusiast | Machine Learning Learner | Problem Solver
 
-👋 Hello! I'm Mahdi Mashayekhi, a passionate Machine Learning Engineer with over 5 years of experience in the dynamic world of artificial intelligence. My journey has been a harmonious blend of technical expertise, creative problem-solving, and an unwavering curiosity to explore the boundless possibilities of data.
+👋 Hello! I'm Mahdi Mashayekhi, a passionate Machine Learning enthusiast with a strong interest in Python and Java. I am currently exploring the world of data science and machine learning, aiming to enhance my skills through practical projects and continuous learning.
 
 ## About Me
-- 🌟 With a strong academic background in Computer Science and a Master's degree specializing in Machine Learning, I've honed my skills through hands-on experience and continuous learning.
-- 💡 I thrive on challenges and have led successful ML projects in diverse domains, including e-commerce, finance, and healthcare.
-- 🚀 My commitment to pushing the boundaries of innovation led me to present my research at international conferences, contributing to the broader ML community.
+- 🎓 Currently expanding my knowledge in Machine Learning and Data Structures & Algorithms.
+- 🚀 Interested in solving real-world problems using AI and data-driven approaches.
+- 🔍 Actively learning and implementing ML algorithms and data processing techniques.
 
 ## What I Do
-- 📊 Data exploration and visualization are my starting points. I believe that the insights gleaned from visualizing data are the compass that guides the entire project.
-- 🤖 My passion lies in crafting intelligent algorithms that transform raw data into actionable insights. From regression to deep learning, I explore a wide spectrum of techniques.
-- 🔍 In the realm of unsupervised learning, I delve into dimensionality reduction techniques like PCA and t-SNE, unraveling the hidden structures within data.
-- 📈 Deploying models is the culmination of my work, where I ensure seamless integration into real-world applications, whether it's a web service or an edge device.
+- 📊 Data Exploration & Visualization: Understanding data through tools like Matplotlib and Seaborn.
+- 🤖 Machine Learning Basics: Implementing regression, classification, and simple neural networks.
+- 🛠 Backend Development: Working with Python and Java to build scalable applications.
+- 🔍 Problem-Solving: Solving coding challenges to improve algorithmic thinking.
 
 ## My Toolbox
-- 💻 I wield Python, R, SQL, and Jupyter as my primary tools for data manipulation, analysis, and experimentation.
-- 📈 My toolkit comprises Scikit-Learn, TensorFlow, Keras, and PyTorch for building and refining machine learning models.
-- 📊 Data visualization becomes an art form with Matplotlib, Seaborn, and Plotly, allowing data stories to come to life.
-- 📚 Utilizing Pandas and Numpy, I sculpt raw data into structured, insightful representations.
+- 💻 Languages: Python, Java, SQL
+- 📈 ML Libraries: Scikit-Learn, TensorFlow (Basic), Pandas, NumPy
+- 🔧 Tools: Git, Jupyter Notebook, VS Code
 
 <img src="https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white" alt=""></img>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt=""></img>
