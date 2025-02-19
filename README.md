@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3e28892f-4e7e-489b-b390-4973106ca9d9)<p align="center">
+<p align="center">
   <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/108976550/205439817-4627fe82-bc98-4ef6-b0f6-a0de3022ca23.jpg" alt="Mahdi Mashayekhi"></a>
 </p>
 
