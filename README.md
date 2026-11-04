@@ -1,70 +1,130 @@
-<p align="center">
-  <a href="https://mahdimashayekhi.ir" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/108976550/205439817-4627fe82-bc98-4ef6-b0f6-a0de3022ca23.jpg" alt="Mahdi Mashayekhi"></a>
-</p>
+<div align="center">
 
-# Mahdi Mashayekhi
-Python & Java Enthusiast | Machine Learning Learner | Problem Solver
+<img src="assets/hero.svg" alt="Mahdi Mashayekhi — Computer Vision Engineer" width="100%"/>
 
-👋 Hello! I'm Mahdi Mashayekhi, a passionate Machine Learning enthusiast with a strong interest in Python and Java. I am currently exploring the world of data science and machine learning, aiming to enhance my skills through practical projects and continuous learning.
+</div>
 
-## About Me
-- 🎓 Currently expanding my knowledge in Machine Learning and Data Structures & Algorithms.
-- 🚀 Interested in solving real-world problems using AI and data-driven approaches.
-- 🔍 Actively learning and implementing ML algorithms and data processing techniques.
+<br/>
 
-## What I Do
-- 📊 Data Exploration & Visualization: Understanding data through tools like Matplotlib and Seaborn.
-- 🤖 Machine Learning Basics: Implementing regression, classification, and simple neural networks.
-- 🛠 Backend Development: Working with Python and Java to build scalable applications.
-- 🔍 Problem-Solving: Solving coding challenges to improve algorithmic thinking.
+```text
+$ python see.py --who me
 
-## My Toolbox
-- 💻 Languages: Python, Java, SQL
-- 📈 ML Libraries: Scikit-Learn, TensorFlow (Basic), Pandas, NumPy
-- 🔧 Tools: Git, Jupyter Notebook, VS Code
+[INFO] loading model .................. done
+[INFO] input   : profile.jpg  (3, H, W)
+[INFO] output  : 1 object
 
-<img src="https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt=""></img>
-<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt=""></img>
-<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt=""></img>
+  class       : Computer Vision Engineer
+  name        : Mahdi Mashayekhi
+  based in    : Tehran, Iran
+  speaks      : Persian · English
+  obsessed w/ : latency, edge cases, and clean masks
+  status      : 🟢 open to interesting problems
 
-## Connect with Me
-<a href="https://mahdimashayekhi.ir"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439604-2fc2cf1f-9b32-4793-8fbc-68ca7d7aef01.png" alt="Site Mahdi Mashayekhi" width="21px"/></a>
-<a href="https://twitter.com/Mashayekhi_AI"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439278-ef523083-6d42-4ca3-84de-1608dcd39d2c.png" alt="twitter Mahdi Mashayekhi" width="21px"/></a>
-<a href="https://www.linkedin.com/in/mahdimashayekhi/"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439314-6c244884-b22d-4e2a-b83b-94377b88a301.png" alt="Linkedin Mahdi Mashayekhi" width="21px"/></a>
-<a href="https://www.youtube.com/@MahdiMashayekhi"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439340-d4512d7e-aa6b-4dbd-80eb-9b2083583573.png" alt="YouTubr Mahdi Mashayekhi" width="21px"/></a>
-<a href="https://medium.com/@MahdiMashayekhi"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439524-fbd3f80c-ad61-4c20-8f53-b7797a023f4b.png" alt="Medium Mahdi Mashayekhi" width="21px"/></a>
-<a href="https://www.instagram.com/mahdimashayekhi.ai/"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439420-4acda2ac-ba3d-437e-b373-04e0e78929d7.png" alt="Instagram Mahdi Mashayekhi" width="21px"/></a>
+[DONE] 12.3 ms  ·  confidence 0.99
+```
 
-<br/><br/>
+## 👁️ Manifesto
 
-- 📧 For any inquiries or exciting collaborations, you can always reach me at [mahdimashayekhi.ai@gmail.com](mailto:mahdimashayekhi.ai@gmail.com).
-- 💼 Let's establish a professional connection on [LinkedIn](https://www.linkedin.com/in/mahdimashayekhi/), where we can exchange ideas and explore synergies.
-- 🐦 Follow me on [Twitter](https://twitter.com/Mashayekhi_AI) for intriguing discussions on emerging trends in Machine Learning and AI.
-- 🌐 Dive deeper into my projects and insights on my [Personal Website](https://mahdimashayekhi.ir).
+> **Pixels are not data. Pixels are evidence.**
+> My job is to turn raw light into decisions a machine can trust.
 
-## 💳 Donate and Support
+- **See clearly first.** Great perception starts with great data, calibration and geometry, long before any model.
+- **Measure everything.** If it isn't benchmarked on real hardware, it isn't fast.
+- **Ship it.** A model that never leaves the notebook has not seen the world yet.
 
-- You can support me or donate through the link below:</br></br>
-<a href="https://mahdimashayekhi.ir/donate"><img align="left" src="https://user-images.githubusercontent.com/108976550/205439604-2fc2cf1f-9b32-4793-8fbc-68ca7d7aef01.png" alt="Mahdi Mashayekhi Donate" width="21px"/></a>
-<a href="https://mahdimashayekhi.ir/donate">mahdimashayekhi.ir/donate</a>
+## 🎞️ The Pipeline
 
-## Let's Collaborate
-I'm genuinely enthusiastic about forging connections with fellow data enthusiasts, researchers, and professionals. Whether it's a joint project, knowledge-sharing endeavor, or simply a chat about the fascinating world of Machine Learning, I'm just a message away!
+Every problem I solve passes through some version of this chain: from a raw frame to something a system can act on.
 
-![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blue)
+<div align="center">
+<img src="assets/pipeline.svg" alt="Image processing pipeline: input, grayscale, blur, edges, detections" width="100%"/>
+</div>
 
-## 📈 GitHub Stats 
+## 🧮 Convolution, as a personality
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=MahdiMashayekhi-Ai)](https://github.com/MahdiMashayekhi-Ai)
+Slide a small window across the world, keep only what matters, discard the rest. This is the primitive behind every CNN, and honestly, my approach to engineering.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MahdiMashayekhi-Ai&layout=compact)](https://github.com/MahdiMashayekhi-Ai)
+<div align="center">
+<img src="assets/convolution.svg" alt="Animated convolution of a 3x3 kernel over an 8x8 image" width="100%"/>
+</div>
 
+## 🔥 Activation Map
+
+Where my attention fires the hardest.
+
+<div align="center">
+<img src="assets/skills.svg" alt="Skill activation heatmap" width="100%"/>
+</div>
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA%20·%20TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+## 🎯 Detections (Featured Projects)
+
+| # | Project | What it sees | Stack | Conf. |
+|:-:|---|---|---|:-:|
+| 01 | [**Traffic Intelligence System**](https://github.com/MahdiMashayekhi-AI/Traffic-Intelligence-System) | Real-time analyze of traffic  | `PyTorch` `TensorRT` | **0.99** |
+| 02 | [**Automatic-Number-Plate-Recognition**](https://github.com/MahdiMashayekhi-AI/Automatic-Number-Plate-Recognition) | Multi-object tracking with re-identification | `OpenCV` `ONNX` | **0.97** |
+| 03 | [**Spatial-Speed-Estimation**](https://github.com/MahdiMashayekhi-AI/Spatial-Speed-Estimation) | Camera calibration and speed stimation | `Python` `OpenCV` | **0.95** |
+
+## 🧬 Training History
+
+```text
+ general ML ───────────▶ deep learning ───────────▶ computer vision
+ (the foundation)         (found the signal)          (full focus, no going back)
+```
+
+I started in general machine learning, which taught me how models learn. Then I found the one field where you can *see* the result of your work, and I haven't looked away since.
+
+## 🌌 Currently
+
+```yaml
+building   : Traffic Intelligence System
+exploring  : Vision Transformers · foundation models for vision · real-time 3D
+optimizing : latency (every millisecond counts)
+reading    : NOT RIGHT NOW
+```
+
+<details>
+<summary><b>🎲 Debugging log (click)</b></summary>
+
+- 90% of "model bugs" are label bugs.
+- 9% are preprocessing bugs (RGB vs BGR, I'm looking at you).
+- The remaining 1% is actually the model.
+
+</details>
+
+## 📊 Stats
+
+<div align="center">
+
+<img height="170" src="https://github-stats-extended.vercel.app/api?username=MahdiMashayekhi-AI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070b14" />
+<img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=MahdiMashayekhi-AI&layout=compact&theme=tokyonight&hide_border=true&bg_color=070b14" />
+
+## 🤝 Let's connect
+
+Got a camera and a problem? Let's talk.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahdimashayekhi/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahdimashayekhi.ai@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-24C6DC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mahdimashayekhi-ai.github.io/)
+
+<br/>
+
+```text
+░▒▓█  The world is full of pixels. I help machines understand them.  █▓▒░
+```
+
+</div>
