@@ -159,7 +159,7 @@ $ ./contact --open
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mahdimashayekhi-24C6DC?style=for-the-badge&logo=linkedin&logoColor=24C6DC&labelColor=0D1424)](https://www.linkedin.com/in/mahdimashayekhi/)
 [![Email](https://img.shields.io/badge/Email-Say%20hello-24C6DC?style=for-the-badge&logo=gmail&logoColor=24C6DC&labelColor=0D1424)](mailto:mahdimashayekhi.ai@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-24C6DC?style=for-the-badge&logo=googlechrome&logoColor=24C6DC&labelColor=0D1424)](https://mahdimashayekhi-ai.github.io/)
-[![Telegram](https://img.shields.io/badge/Telegram-Pixel%20to%20tensor-24C6DC?style=for-the-badge&logo=telegram&logoColor=24C6DC&labelColor=0D1424)](https://t.me/YOUR_CHANNEL)
+[![Telegram](https://img.shields.io/badge/Telegram-Pixel%20to%20tensor-24C6DC?style=for-the-badge&logo=telegram&logoColor=24C6DC&labelColor=0D1424)](https://t.me/pixel2tensor)
 
 <br/>
 
