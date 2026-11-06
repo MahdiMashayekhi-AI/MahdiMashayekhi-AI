@@ -2,98 +2,124 @@
 
 <img src="assets/hero.svg" alt="Mahdi Mashayekhi — Computer Vision Engineer" width="100%"/>
 
+<img src="assets/typing.svg" alt="I teach machines to see. Pixels, tensors, perception." width="100%"/>
+
 </div>
 
 <br/>
 
 ```text
-$ python see.py --who me
+$ whoami --profile
 
-[INFO] loading model .................. done
-[INFO] input   : profile.jpg  (3, H, W)
-[INFO] output  : 1 object
-
-  class       : Computer Vision Engineer
-  name        : Mahdi Mashayekhi
-  based in    : Tehran, Iran
-  speaks      : Persian · English
-  obsessed w/ : latency, edge cases, and clean masks
-  status      : 🟢 open to interesting problems
-
-[DONE] 12.3 ms  ·  confidence 0.99
+name        Mahdi Mashayekhi
+role        Computer Vision Engineer
+focus       detection · keypoints · OCR · tracking · geometry · data quality
+based in    Tehran, Iran
+speaks      Persian · English
+writes      "Pixel to tensor" — Computer Vision explained for an Iranian technical audience
+exploring   ConvNeXt · Vision Transformers · industrial defect detection
+status      🟢 open to Computer Vision opportunities and collaboration
 ```
 
-## 👁️ Manifesto
+## How I think about Computer Vision
 
-> **Pixels are not data. Pixels are evidence.**
-> My job is to turn raw light into decisions a machine can trust.
+I care less about a single impressive number and more about whether a system can be trusted. Each of these ideas shows up in something I built:
 
-- **See clearly first.** Great perception starts with great data, calibration and geometry, long before any model.
-- **Measure everything.** If it isn't benchmarked on real hardware, it isn't fast.
-- **Ship it.** A model that never leaves the notebook has not seen the world yet.
+| Belief | Where it shows up |
+|---|---|
+| **Data quality matters as much as the architecture** | In *Traffic Intelligence System* I build dataset auditing tools (validation, class remapping, duplicate and leakage checks) before any YOLO training starts. |
+| **High accuracy is not the same as reliability** | In *ANPR* a single-frame OCR result is never trusted. Keypoints are validated geometrically and uncertain characters are resolved by voting across frames. |
+| **Systems beat isolated notebooks** | *ANPR* runs end to end: detection → rectification → OCR → tracking → API → UI → database. |
+| **Understand the decisions behind the tools** | The OCR model is trained from scratch, and projects use `pytest`, `Ruff`, `pre-commit` and `uv` for reproducible, maintainable code. |
 
-## 🎞️ The Pipeline
+## Projects
 
-Every problem I solve passes through some version of this chain: from a raw frame to something a system can act on.
+Three projects, one question: **what is happening on the road?** Who the vehicle is, what is in the scene, and how fast things move.
 
-<div align="center">
-<img src="assets/pipeline.svg" alt="Image processing pipeline: input, grayscale, blur, edges, detections" width="100%"/>
-</div>
+### 01 · Automatic Number Plate Recognition &nbsp;`completed`
 
-## 🧮 Convolution, as a personality
-
-Slide a small window across the world, keep only what matters, discard the rest. This is the primitive behind every CNN, and honestly, my approach to engineering.
+An end-to-end license plate recognition system for video streams, built from detection to a searchable history database.
 
 <div align="center">
-<img src="assets/convolution.svg" alt="Animated convolution of a 3x3 kernel over an 8x8 image" width="100%"/>
+<img src="assets/anpr-pipeline.svg" alt="ANPR architecture: YOLOv8-Pose, validation, perspective transform, CRNN OCR, ByteTrack with temporal voting, FastAPI, Streamlit and SQLite" width="100%"/>
 </div>
 
-## 🔥 Activation Map
+**Engineering problems this project taught me**
 
-Where my attention fires the hardest.
+- **Plates are rarely frontal.** YOLOv8-Pose finds the plate and its keypoints, geometric validation filters bad detections, and a perspective transform rectifies every plate to a consistent 128×32 input.
+- **Off-the-shelf OCR did not fit.** I trained a CRNN from scratch on a custom character set of digits and Persian letters.
+- **Video is noisy.** ByteTrack keeps identities across frames, and temporal voting handles uncertain or unknown characters.
+- **A model is not a product.** FastAPI serves the pipeline, Streamlit provides the interface, and SQLite stores and searches recognition history.
+
+`Ultralytics YOLO` `PyTorch` `OpenCV` `FastAPI` `Streamlit` `SQLite`
+
+**[→ View repository](https://github.com/MahdiMashayekhi-AI/Automatic-Number-Plate-Recognition)**
+
+---
+
+### 02 · Traffic Intelligence System &nbsp;`in development`
+
+Traffic scene analysis and object detection. Before training anything, I am building reusable tooling to make the **UA-DETRAC** dataset trustworthy instead of just downloading it and hitting train.
 
 <div align="center">
-<img src="assets/skills.svg" alt="Skill activation heatmap" width="100%"/>
+<img src="assets/data-audit.svg" alt="Random frame split leaking near-duplicate frames compared with a sequence-aware split" width="100%"/>
 </div>
+
+**What the data pipeline covers**
+
+- Dataset structure validation, annotation parsing and validation
+- Class remapping and dataset statistics
+- Duplicate and near-duplicate image detection
+- Leakage prevention, so validation scores mean something
+- YOLO-ready datasets, audited with FiftyOne
+
+`Python` `PyTorch` `YOLO` `NumPy` `Pandas` `FiftyOne` `uv` `pytest` `Ruff`
+
+**[→ View repository](https://github.com/MahdiMashayekhi-AI/Traffic-Intelligence-System)**
+
+---
+
+### 03 · Spatial Speed Estimation
+
+Turning pixels into meters per second. Instead of guessing speed from how far something moves on screen, this project estimates vehicle speed from the geometry of the scene.
+
+<div align="center">
+<img src="assets/speed-estimation.svg" alt="Camera view mapped to world coordinates with calibration lines L1 and L2 used to compute speed as distance over time" width="100%"/>
+</div>
+
+**The ideas behind it**
+
+- **A pixel is not a meter.** Camera calibration and perspective geometry map image coordinates onto real-world positions.
+- **Perspective lies about motion.** The same vehicle covers far more pixels near the camera than far away, so speed has to be measured in world coordinates, not in image space.
+- **Speed is motion over time.** Motion analysis across frames turns mapped positions into a speed estimate.
+
+`Python` `OpenCV`
+
+**[→ View repository](https://github.com/MahdiMashayekhi-AI/Spatial-Speed-Estimation)**
+
+## Skills
+
+| | |
+|---|---|
+| **Vision & Deep Learning** | ![OpenCV](https://img.shields.io/badge/OpenCV-0D1424?style=for-the-badge&logo=opencv&logoColor=24C6DC) ![PyTorch](https://img.shields.io/badge/PyTorch-0D1424?style=for-the-badge&logo=pytorch&logoColor=24C6DC) ![Ultralytics YOLO](https://img.shields.io/badge/Ultralytics%20YOLO-0D1424?style=for-the-badge&logo=ultralytics&logoColor=24C6DC) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1424?style=for-the-badge&logo=scikitlearn&logoColor=24C6DC) ![FiftyOne](https://img.shields.io/badge/FiftyOne-0D1424?style=for-the-badge&logoColor=24C6DC) |
+| **Data** | ![Python](https://img.shields.io/badge/Python-0D1424?style=for-the-badge&logo=python&logoColor=24C6DC) ![NumPy](https://img.shields.io/badge/NumPy-0D1424?style=for-the-badge&logo=numpy&logoColor=24C6DC) ![Pandas](https://img.shields.io/badge/Pandas-0D1424?style=for-the-badge&logo=pandas&logoColor=24C6DC) |
+| **Backend & Apps** | ![FastAPI](https://img.shields.io/badge/FastAPI-0D1424?style=for-the-badge&logo=fastapi&logoColor=24C6DC) ![Streamlit](https://img.shields.io/badge/Streamlit-0D1424?style=for-the-badge&logo=streamlit&logoColor=24C6DC) ![SQLite](https://img.shields.io/badge/SQLite-0D1424?style=for-the-badge&logo=sqlite&logoColor=24C6DC) |
+| **Engineering** | ![Git](https://img.shields.io/badge/Git-0D1424?style=for-the-badge&logo=git&logoColor=24C6DC) ![GitHub](https://img.shields.io/badge/GitHub-0D1424?style=for-the-badge&logo=github&logoColor=24C6DC) ![uv](https://img.shields.io/badge/uv-0D1424?style=for-the-badge&logo=uv&logoColor=24C6DC) ![pytest](https://img.shields.io/badge/pytest-0D1424?style=for-the-badge&logo=pytest&logoColor=24C6DC) ![Ruff](https://img.shields.io/badge/Ruff-0D1424?style=for-the-badge&logo=ruff&logoColor=24C6DC) ![pre-commit](https://img.shields.io/badge/pre--commit-0D1424?style=for-the-badge&logo=precommit&logoColor=24C6DC) |
+| **Exploring** | ![ConvNeXt](https://img.shields.io/badge/ConvNeXt-2B1B4A?style=for-the-badge&logoColor=FF3DF2) ![Vision Transformers](https://img.shields.io/badge/Vision%20Transformers-2B1B4A?style=for-the-badge) ![Foundation Models](https://img.shields.io/badge/Visual%20Foundation%20Models-2B1B4A?style=for-the-badge) ![Anomaly Detection](https://img.shields.io/badge/Anomaly%20Detection-2B1B4A?style=for-the-badge) |
+
+## Where I'm heading
+
+**Industrial Computer Vision**: PCB defect detection, manufacturing inspection and anomaly detection. That is where data quality, evaluation and failure-case analysis matter most, and where I want to take these skills next.
+
+## Pixel to tensor
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA%20·%20TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+[![Pixel to tensor — Telegram channel](assets/pixel-to-tensor.svg)](https://t.me/pixel2tensor)
 
 </div>
 
-## 🎯 Detections (Featured Projects)
-
-| # | Project | What it sees | Stack | Conf. |
-|:-:|---|---|---|:-:|
-| 01 | [**Traffic Intelligence System**](https://github.com/MahdiMashayekhi-AI/Traffic-Intelligence-System) | Real-time analyze of traffic  | `PyTorch` `TensorRT` | **0.99** |
-| 02 | [**Automatic-Number-Plate-Recognition**](https://github.com/MahdiMashayekhi-AI/Automatic-Number-Plate-Recognition) | Multi-object tracking with re-identification | `OpenCV` `ONNX` | **0.97** |
-| 03 | [**Spatial-Speed-Estimation**](https://github.com/MahdiMashayekhi-AI/Spatial-Speed-Estimation) | Camera calibration and speed stimation | `Python` `OpenCV` | **0.95** |
-
-## 🧬 Training History
-
-```text
- general ML ───────────▶ deep learning ───────────▶ computer vision
- (the foundation)         (found the signal)          (full focus, no going back)
-```
-
-I started in general machine learning, which taught me how models learn. Then I found the one field where you can *see* the result of your work, and I haven't looked away since.
-
-## 🌌 Currently
-
-```yaml
-building   : Traffic Intelligence System
-exploring  : Vision Transformers · foundation models for vision · real-time 3D
-optimizing : latency (every millisecond counts)
-reading    : NOT RIGHT NOW
-```
+Practical explanations of Computer Vision and AI, written for the Iranian tech community. No motivational filler: OpenCV, architectures, dataset pitfalls and modern vision models, explained so you can actually use them.
 
 <details>
 <summary><b>🎲 Debugging log (click)</b></summary>
@@ -104,27 +130,45 @@ reading    : NOT RIGHT NOW
 
 </details>
 
-## 📊 Stats
+## Activity
 
 <div align="center">
 
 <img height="170" src="https://github-stats-extended.vercel.app/api?username=MahdiMashayekhi-AI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070b14" />
 <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=MahdiMashayekhi-AI&layout=compact&theme=tokyonight&hide_border=true&bg_color=070b14" />
 
-## 🤝 Let's connect
+<br/><br/>
 
-Got a camera and a problem? Let's talk.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiMashayekhi-AI/MahdiMashayekhi-AI/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MahdiMashayekhi-AI/MahdiMashayekhi-AI/output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/MahdiMashayekhi-AI/MahdiMashayekhi-AI/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+## Contact
+
+```text
+$ ./contact --open
+> Got a Computer Vision problem, a dataset that needs auditing, or an idea worth building? Let's talk.
+```
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahdimashayekhi/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahdimashayekhi.ai@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-24C6DC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mahdimashayekhi-ai.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mahdimashayekhi-24C6DC?style=for-the-badge&logo=linkedin&logoColor=24C6DC&labelColor=0D1424)](https://www.linkedin.com/in/mahdimashayekhi/)
+[![Email](https://img.shields.io/badge/Email-Say%20hello-24C6DC?style=for-the-badge&logo=gmail&logoColor=24C6DC&labelColor=0D1424)](mailto:mahdimashayekhi.ai@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-24C6DC?style=for-the-badge&logo=googlechrome&logoColor=24C6DC&labelColor=0D1424)](https://mahdimashayekhi-ai.github.io/)
+[![Telegram](https://img.shields.io/badge/Telegram-Pixel%20to%20tensor-24C6DC?style=for-the-badge&logo=telegram&logoColor=24C6DC&labelColor=0D1424)](https://t.me/YOUR_CHANNEL)
 
 <br/>
 
 ```text
-░▒▓█  The world is full of pixels. I help machines understand them.  █▓▒░
+░▒▓█  From pixels to perception.  █▓▒░
+```
+
+```python
+while not extraordinary: build(); fail(); debug(); retrain()  # the loss only drops if you keep training.
 ```
 
 </div>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+<rect width="1000" height="400" rx="12" fill="#070b14"/>
+<text x="50" y="36" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="700" fill="#24c6dc" letter-spacing="2">ANPR · END-TO-END ARCHITECTURE</text>
+<text x="50" y="64" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#4a5f86" letter-spacing="2">PERCEPTION</text>
+<text x="50" y="236" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#4a5f86" letter-spacing="2">SYSTEM</text>
+<path d="M130 131H870V303H500" fill="none" stroke="#24385f" stroke-width="2" stroke-dasharray="5 6"/>
+<circle r="5.5" fill="#ffd24a"><animateMotion dur="9s" begin="0s" repeatCount="indefinite" path="M130 131H870V303H500"/></circle><circle r="5.5" fill="#ffd24a"><animateMotion dur="9s" begin="3s" repeatCount="indefinite" path="M130 131H870V303H500"/></circle><circle r="5.5" fill="#ffd24a"><animateMotion dur="9s" begin="6s" repeatCount="indefinite" path="M130 131H870V303H500"/></circle>
+<g><rect x="50" y="76" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="50" y="76" width="160" height="4" rx="2" fill="#24c6dc"/>
+ <text x="62" y="100" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#24c6dc">01</text>
+ <text x="130" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">Video frame</text>
+ <text x="130" y="151" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">stream input</text></g><g><rect x="235" y="76" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="235" y="76" width="160" height="4" rx="2" fill="#24c6dc"/>
+ <text x="247" y="100" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#24c6dc">02</text>
+ <text x="315" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">YOLOv8-Pose</text>
+ <text x="315" y="151" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">plate + keypoints</text></g><g><rect x="420" y="76" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="420" y="76" width="160" height="4" rx="2" fill="#24c6dc"/>
+ <text x="432" y="100" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#24c6dc">03</text>
+ <text x="500" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">Validation</text>
+ <text x="500" y="151" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">geometric checks</text><text x="500" y="165" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">on keypoints</text></g><g><rect x="605" y="76" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="605" y="76" width="160" height="4" rx="2" fill="#24c6dc"/>
+ <text x="617" y="100" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#24c6dc">04</text>
+ <text x="685" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">Perspective</text>
+ <text x="685" y="151" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">warp → rectified</text><text x="685" y="165" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">128×32 plate</text></g><g><rect x="790" y="76" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="790" y="76" width="160" height="4" rx="2" fill="#24c6dc"/>
+ <text x="802" y="100" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#24c6dc">05</text>
+ <text x="870" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">CRNN OCR</text>
+ <text x="870" y="151" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">digits + Persian chars</text><text x="870" y="165" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">trained from scratch</text></g><g><rect x="790" y="248" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="790" y="248" width="160" height="4" rx="2" fill="#ff3df2"/>
+ <text x="802" y="272" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#ff3df2">06</text>
+ <text x="870" y="305" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">ByteTrack + voting</text>
+ <text x="870" y="323" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">IDs across frames</text><text x="870" y="337" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">temporal voting</text></g><g><rect x="605" y="248" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="605" y="248" width="160" height="4" rx="2" fill="#ff3df2"/>
+ <text x="617" y="272" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#ff3df2">07</text>
+ <text x="685" y="305" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">FastAPI</text>
+ <text x="685" y="323" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">backend service</text></g><g><rect x="420" y="248" width="160" height="110" rx="10" fill="#0d1424" stroke="#1d2d4d"/>
+ <rect x="420" y="248" width="160" height="4" rx="2" fill="#ff3df2"/>
+ <text x="432" y="272" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#ff3df2">08</text>
+ <text x="500" y="305" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="800" fill="#e8eefc">Streamlit · SQLite</text>
+ <text x="500" y="323" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">UI + searchable</text><text x="500" y="337" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" fill="#8fa3cc">recognition history</text></g>
+<text x="500" y="382" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11.5" fill="#4a5f86">unknown or uncertain characters are resolved by voting across frames, not trusted from a single prediction</text>
+</svg>
